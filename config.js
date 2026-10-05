@@ -7,7 +7,7 @@
 
 window.WEDDING_INVITATION = {
   // Add local wedding photos to the photos array using src and alt.
-  photos: [],
+  photos: [{ src: './assets/fast/couple.jpg', alt: '文尚与邓旖的婚纱照', width: 960, height: 1440 }],
   // 1. 新郎与新娘信息（占位符）
   heroName: '文尚 & 邓旖',
   englishName: 'WEN SHANG & DENG YI',
@@ -27,8 +27,8 @@ window.WEDDING_INVITATION = {
 
   // 4. 主文案
   questTitle: '参加文尚与邓旖的婚礼',
-  invitationText: '【给宾客的话待补充】在这个秋天，我们即将开启双人生活，期待你来到我们的幸福小天地。',
-  giftNotice: '【温馨提示待补充】',
+  invitationText: '',
+  giftNotice: '',
   endingTitle: '余生四季，一起耕耘',
 
   // 5. 当天流程：可以增加或删除整组 { ... }
@@ -38,7 +38,7 @@ window.WEDDING_INVITATION = {
 
   // 8. 用户提供的音乐：Summer (Nature's Crescendo)，本地播放
   musicEnabled: true,
-  musicUrl: './assets/summer-natures-crescendo.mp3',
+  musicUrl: './assets/fast/summer.mp3',
   musicHint: '播放 / 暂停音乐',
 
   // 9. 宾客登记仅为本机演示：内容只保存在访客自己的浏览器中，不会上传
